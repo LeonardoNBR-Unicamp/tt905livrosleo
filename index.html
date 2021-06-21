@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Aula 11
+        </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="function.js"></script>
+    </head>
+    <body>
+     
+     
+        <h2>Adicionar Curiosidade</h2>
+        <form id="postForm">
+            <div>
+        <label for="tipo">Tipo:</label>
+        <input type="text" id ="tipo" name="tipo"/></div>
+        <div>
+        <label for="detalhe ">Detalhe:</label>
+        <input type="text" id ="detalhe" name="detalhe"/>
+        </div>
+        <div id= "botao">
+        <button type="submit" onclick="return submitPost()">Submit</button></div>
+        </form>
+
+        <h2>Atualizar Curiosidade</h2>
+        <form id="putForm">
+        <div>
+        <label for="id">Id:</label>
+            <input type="text" name="id"/>
+         </div>
+        
+        <div>
+            <label for="tipo">Tipo:</label>
+            <input type="text" id ="tipo2" name="tipo2"/>
+        </div>
+            <div>
+            <label for="detalhe ">Detalhe:</label>
+            <input type="text" id ="detalhe2" name="detalhe2"/>
+            </div>
+            <div id= "botao">
+         <button type="submit" onclick="return submitPut()">Submit</button></div>
+         </form>
+
+         <h2>Deletar Curiosidade</h2>
+         <form id="deleteForm">
+            <label for="id2">Id:</label>
+            <input type="text" name="id2"/>
+         </div>
+        <div id= "botao">
+          <button type="submit" onclick="return submitDelete()">Submit</button></div>
+          </form>
+
+    </body>
+</html> 

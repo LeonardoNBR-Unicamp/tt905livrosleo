@@ -1,0 +1,24 @@
+{
+  "name": "Aula-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-Unicamp/Atividade8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luiz-Unicamp/Atividade8/issues"
+  },
+  "homepage": "https://github.com/Luiz-Unicamp/Atividade8#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
