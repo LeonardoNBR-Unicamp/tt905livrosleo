@@ -18,10 +18,10 @@ app.use(express.json());
  });
 
 var obras = [
-    {obra: "Amar, verbo intransitivo", autor:"Mário de Andrade"},
-    {obra: "O bem-amado", autor:"Dias Gomes"},
-    {obra: "Instituição da religião Cristã", autor:"João Calvino"},
-    {obra: "Alienista", autor:"Machado de Assis"},
+    {titulo: "Amar, verbo intransitivo", autor:"Mário de Andrade"},
+    {titulo: "O bem-amado", autor:"Dias Gomes"},
+    {titulo: "Instituição da religião Cristã", autor:"João Calvino"},
+    {titulo: "Alienista", autor:"Machado de Assis"},
     
 ]
 
