@@ -17,7 +17,7 @@ app.use(express.json());
         res.send("Hello denovo!");
  });
 
-var Livros = [
+var obras = [
     {obra: "Amar, verbo intransitivo", autor:"Mário de Andrade"},
     {obra: "O bem-amado", autor:"Dias Gomes"},
     {obra: "Instituição da religião Cristã", autor:"João Calvino"},
